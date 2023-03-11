@@ -34,7 +34,7 @@ if (individual < "employee"){
 }
 
 
-// Switch case
+// Switch case.
 
 let startRating = 7;
 switch(startRating){
