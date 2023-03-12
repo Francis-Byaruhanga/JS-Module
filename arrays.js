@@ -52,6 +52,15 @@ console.log(cities);
 
 // Nested Arrays or Multi dimensional arrays. 
 
+let hobbies = [["Swimming", 4], ["singing", 5], ["Basketball", 3], ["Football", 6]]
+console.log(hobbies);
+console.log(hobbies[1][0]) // Prints out first element in second sub array.
+hobbies[2].pop(); // Removes last element in third sub array
+console.log(hobbies)
+hobbies[1].push(3); // Adds elements into the sub array
+console.log(hobbies)
+hobbies.splice(0,1) //Deletes first sub array
+console.log(hobbies)
 
 
 
