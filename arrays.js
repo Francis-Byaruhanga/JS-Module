@@ -61,6 +61,25 @@ hobbies[1].push(3); // Adds elements into the sub array
 console.log(hobbies)
 hobbies.splice(0,1) //Deletes first sub array
 console.log(hobbies)
+hobbies.splice(1,0, ['snowboarding', 7]); // Adds the "snowboarding" sub array at the second position"
+console.log(hobbies)
+hobbies.pop();
+console.log(hobbies)
+
+let olympics = [["marathon", 2], ["javelin", 4], ["disc", 6], ["high jump", 5]]
+olympics.forEach((element) => {
+    element.pop(1);    //Using forEach function to loop through the arrays
+});
+console.log(olympics)
+
+//Flattening the arrays
+//Flatten the sub-arrays into one array
+//This removes all the sub arrays and creates one array
+
+// const flatArray= olympics.flat();
+// console.log(flatArray)
+console.log(olympics.flat())
+
 
 
 
